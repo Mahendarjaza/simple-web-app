@@ -32,16 +32,25 @@ This is a minimal Node.js web application using Express. It responds with a frie
 ```bash
 npm install
 npm start
+```
+
+- Then open your browser and go to: http://localhost:8081
 
 ---
 
 ## 🐳 Running with Docker
 
-Step 1: Build the Docker image
-docker build -t simple-node-app .
+- Step 1: Build the Docker image
 
-Step 2: Run the Docker container
+```bash
+  docker build -t simple-node-app .
+```
+
+- Step 2: Run the Docker container
+
+```bash
 docker run -p 8081:8081 simple-node-app
+```
 
 ---
 
